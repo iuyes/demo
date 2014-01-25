@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<script src="../vendor/jquery/jquery-debug.js"></script>
+<script src="../vendor/seajs/sea-debug.js"></script>
+<script>
+  seajs.config({
+    base: '../sea-modules',
+    map: [
+      ['/sea-modules/crossjs/jquery/1.11.0/', '/vendor/jquery/']
+    ],
+    alias: {
+      '$-debug': 'crossjs/jquery/1.11.0/jquery-debug'
+    }
+  });
+  seajs.use('../dist/demo-debug');
+</script>
+</body>
+</html>
