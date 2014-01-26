@@ -9,10 +9,10 @@
   seajs.config({
     base: '../sea-modules',
     map: [
-      ['/sea-modules/crossjs/jquery/1.11.0/', '/vendor/jquery/']
+      ['/sea-modules/jquery-debug', '/vendor/jquery/jquery-debug']
     ],
     alias: {
-      '$-debug': 'crossjs/jquery/1.11.0/jquery-debug'
+      '$-debug': 'jquery-debug'
     }
   });
   seajs.use('../dist/demo-debug');
