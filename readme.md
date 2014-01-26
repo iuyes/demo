@@ -7,7 +7,7 @@
 
 ##how to run
 1. `npm install --save-dev`
-1. `spm install --save-dev`
+1. `spm install --save`
 1. `grunt`
 1. view html files in `demo`
 
