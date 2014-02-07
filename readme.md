@@ -6,6 +6,7 @@
  > seajs demo, best practice
 
 ##how to run
+
 1. `npm install --save-dev`
 1. `spm install --save`
 1. `grunt`
@@ -13,4 +14,5 @@
 
 ##history
 
+- 0.0.2 - add `zepto` supports
 - 0.0.1 - init

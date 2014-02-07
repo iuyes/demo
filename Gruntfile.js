@@ -24,23 +24,6 @@ module.exports = function(grunt) {
       }
     },
 
-    qunit: {
-      all: ['test/*.html']
-    },
-
-    yuidoc: {
-      compile: {
-        name: '<%= pkg.name %>',
-        description: '<%= pkg.description %>',
-        version: '<%= pkg.version %>',
-        options: {
-          paths: 'src',
-          outdir: 'doc',
-          themedir: 'vendor/yuidoc-bootstrap'
-        }
-      }
-    },
-
     clean: {
       build: {
         files: {
@@ -74,7 +57,7 @@ module.exports = function(grunt) {
     concat: {
       options: {
         debug: true,
-        include: 'all',
+        include: 'self',
         paths: ['sea-modules']
       },
       src: {

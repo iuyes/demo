@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<script src="../vendor/zepto/zepto-debug.js"></script>
+<script src="../vendor/seajs/sea-debug.js"></script>
+<script>
+  seajs.config({
+    base: '../sea-modules',
+    map: [
+      ['/sea-modules/zepto-debug', '/vendor/zepto/zepto-debug']
+    ],
+    alias: {
+      '$-debug': 'zepto-debug'
+    }
+  });
+  seajs.use('../dist/demo-debug');
+</script>
+</body>
+</html>

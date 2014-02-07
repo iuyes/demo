@@ -1,6 +1,6 @@
 {
   "name": "demo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "seajs demo, best practice",
   "keywords": [ "demo", "seajs", "modules" ],
   "homepage": "https://github.com/crossjs/demo",
@@ -44,8 +44,7 @@
     "output": [ "demo.js" ],
     "alias": {
       "$": "$",
-      "util": "crossjs/util/0.0.1/util",
-      "class": "crossjs/class/0.0.2/class"
+      "class": "crossjs/class/0.0.5/class"
     }
   }
 }
