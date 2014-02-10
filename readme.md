@@ -14,6 +14,7 @@
 
 ##history
 
+- 0.1.0 - remove `jQuery`, supports `zepto`
 - 0.0.3 - update modules
 - 0.0.2 - add `zepto` supports
 - 0.0.1 - init

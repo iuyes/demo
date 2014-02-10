@@ -1,10 +1,10 @@
-define("../dist/demo-debug", [ "$-debug", "crossjs/class/0.0.5/class-debug", "crossjs/class/0.0.5/super-debug" ], function(require, exports, module) {
+define("../dist/demo-debug", [ "$-debug", "crossjs/class/0.1.0/class-debug", "crossjs/class/0.1.0/super-debug" ], function(require, exports, module) {
     /**
  * Demo
  * @module Demo
  */
     "use strict";
-    var $ = require("$-debug"), Class = require("crossjs/class/0.0.5/class-debug");
+    var $ = require("$-debug"), Class = require("crossjs/class/0.1.0/class-debug");
     var Person = new Class({
         __construct: function(name, gender) {
             this.name = name;
