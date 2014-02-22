@@ -3,16 +3,16 @@
 <head>
 </head>
 <body>
-<script src="../vendor/zepto/zepto-debug.js"></script>
+<script src="../vendor/jquery/jquery-debug.js"></script>
 <script src="../vendor/seajs/sea-debug.js"></script>
 <script>
   seajs.config({
     base: '../sea-modules',
     map: [
-      ['/sea-modules/zepto-debug', '/vendor/zepto/zepto-debug']
+      ['/sea-modules/jquery-debug', '/vendor/jquery/jquery-debug']
     ],
     alias: {
-      '$-debug': 'zepto-debug'
+      '$-debug': 'jquery-debug'
     }
   });
   seajs.use('../dist/demo-debug');
